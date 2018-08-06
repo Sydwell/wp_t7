@@ -1,0 +1,56 @@
+/*
+Theme Name: T7
+
+*/
+
+body {
+    color: brown;
+    background-color: rgb(222, 233, 122);
+}
+
+a:link,
+a:visited {
+    color: #006ec3;
+}
+
+p {
+    line-height: 1.65em;
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar-inverse {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+/* Because the top navigation takes up 50 pixels*/
+.be-container {
+    padding-top: 50px;
+}
+
+.navbar-nav {
+    margin-top: 50px;
+}
+
+.navbar-nav :hover {
+    background-color: #07A853;
+    color: aliceblue;
+}
+
+.navbar-nav :active {
+    background-color: rgb(122, 161, 233);
+}
+
+.logo {
+    height: 40px;
+    padding: 0px;
+    margin: 0px;
+    margin-top: -10px;
+}
+/**
+New in version 6
+overwriting a bootstrap style notice the use of !important
+*/
+.btn-success {
+    background-color: fuchsia!important;
+}
